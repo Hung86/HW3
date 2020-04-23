@@ -6,7 +6,7 @@ import torch
 import collections
 import random
 
-from prototype import *
+from .prototype import *
 
 class ReplayBuffer():
     def __init__(self, buffer_limit=10000):
