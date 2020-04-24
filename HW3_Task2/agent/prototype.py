@@ -5,7 +5,7 @@ Name : Lim Jia Xian Clarence (A0212209U)
 import collections
 import torch
 import os
-from models import *
+from .models import *
 
 # # Hyperparameters --- don't change, RL is very sensitive
 # learning_rate = 1e-4
